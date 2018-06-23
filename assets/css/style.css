@@ -12,35 +12,43 @@ body {
 }
 
 .wins-container {
-    display: block;
     margin-top: 5%;
 }
 
-/* computers guess small container*/
+/* computers guess small box*/
 
 #guess-card {
     background-color: #53A451;
     color: white;
     text-align: center;
     opacity: .85;
+    width: 50%;
 }
 
-/* wins/losses small container*/
+/* wins/losses small box*/
 
 #score-card {
     background-color: #F7C244;
     color: white;
     text-align: center;
     opacity: .85;
+    width: 50%;
 }
-/*container for the gems*/
-.gem {
-    background-color: white;
-    margin:1%;
-    opacity: .85;
+/*box for gems*/
+.gems-con {
+    margin: 2%;
 }
 
-/* Final Score container*/
+
+/* gems themselves*/
+.gem {
+    margin:5%;
+    opacity: .85;
+    width: 50px;
+    height: 50px;
+}
+
+/* Final Score box*/
 .your-score {
     background-color: #49A0B5;
     color: white;

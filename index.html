@@ -24,8 +24,8 @@
         <h1 class="text-info text-center">Crystals Collector</h1>
     </nav>
     <!--rules container-->
-    <div class="container rules-container">
-        <div class="row">
+    <div class="container">
+        <div class="row rules-container">
             <div class="col-lg-12">
                 <ul>
                     <li>You will be given a random number at the start of the game.</li>
@@ -42,14 +42,14 @@
             </div>
         </div>
 
-    </div>
 
-    <!--Wins and Losses container-->
-    <div class="container wins-container">
-        <div class="row row-eq-height">
-            <div class="col" id="guess-card">random score</div>
 
-            <div class="col" id="score-card">
+        <!--Wins and Losses container-->
+
+        <div class="row row-eq-height wins-container">
+            <div class="col-6-lg" id="guess-card">random score</div>
+
+            <div class="col-6-lg" id="score-card">
                 <ul>
                     <li>Wins: </li>
                     </br>
@@ -57,35 +57,43 @@
                 </ul>
             </div>
         </div>
-    </div>
 
-    <!--Gems Container-->
-    <div class="container gems-con">
+
+        <!--Gems Container-->
+
+        <div class="row row-eq-height gem-con">
+            <div class="col col-lg-2 gem">
+                <img src="assets/images/gem-1.png">
+            </div>
+            <div class="col col-lg-2 gem">
+                <img src="assets/images/gem-2.png">
+            </div>
+            <div class="col col-lg-2 gem">
+                <img src="assets/images/gem-3.png">
+            </div>
+            <div class="col col-lg-2 gem">
+                <img src="assets/images/gem-4.png">
+            </div>
+        </div>
+
+
+        <!--Container above final score-->
+
         <div class="row row-eq-height">
-            <div class="col gem">Gem 1</div>
-            <div class="col gem">Gem 2</div>
-            <div class="col gem">Gem 3</div>
-            <div class="col gem">Gem 4</div>
-        </div>
-    </div>
+            <div class="col-6-lg text-center your-score">
+                <p>
+                    <h3>
+                        <strong>Your score is: </strong>
+                    </h3>
+                </p>
+            </br>
+                <div class="col-6-lg text-center score-is">
+                    <p id="final-score">User Score Goes Here</p>
 
-    <!--Container above final score-->
-    <div class="container score-is">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p><h3><strong>Your score is: </strong></h3></p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!--Container for Final Score-->
-    <div class="container your-score">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p id="final-score">User Score Goes Here</p>
-                
-            </div>
-        </div>
     </div>
 
 </body>
