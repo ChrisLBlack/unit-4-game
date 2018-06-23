@@ -19,9 +19,74 @@
 </head>
 
 <body>
-   <nav class= "navbar navbar-default navbar-fixedtop navbar-light bg-dark navbar-nav">
-       <h1 class="text-info text-center">Crystals Collector</h1>
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixedtop navbar-light bg-dark navbar-nav">
+        <h1 class="text-info text-center">Crystals Collector</h1>
     </nav>
+    <!--rules container-->
+    <div class="container rules-container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul>
+                    <li>You will be given a random number at the start of the game.</li>
+                    </br>
+                    <li>There are four crystals below. By clicking on a crysal, you will add a specific amount of points to your
+                        total score.</li>
+                    </br>
+
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    </br>
+
+                    <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Wins and Losses container-->
+    <div class="container wins-container">
+        <div class="row row-eq-height">
+            <div class="col" id="guess-card">random score</div>
+
+            <div class="col" id="score-card">
+                <ul>
+                    <li>Wins: </li>
+                    </br>
+                    <li>Losses: </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Gems Container-->
+    <div class="container gems-con">
+        <div class="row row-eq-height">
+            <div class="col gem">Gem 1</div>
+            <div class="col gem">Gem 2</div>
+            <div class="col gem">Gem 3</div>
+            <div class="col gem">Gem 4</div>
+        </div>
+    </div>
+
+    <!--Container above final score-->
+    <div class="container score-is">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p><h3><strong>Your score is: </strong></h3></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Container for Final Score-->
+    <div class="container your-score">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p id="final-score">User Score Goes Here</p>
+                
+            </div>
+        </div>
+    </div>
 
 </body>
 

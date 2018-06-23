@@ -1,3 +1,55 @@
 body {
     background: url(../images/river-stone.jpg);
 }
+
+/* containter of the rules*/
+
+.rules-container {
+    background-color: #49A0B5;
+    color: white;
+    margin-top: 10%;
+}
+
+.wins-container {
+    display: block;
+    margin-top: 5%;
+}
+
+/* computers guess small container*/
+
+#guess-card {
+    background-color: #53A451;
+    color: white;
+    text-align: center;
+}
+
+/* wins/losses small container*/
+
+#score-card {
+    background-color: #F7C244;
+    color: white;
+    text-align: center;
+}
+/*container for the gems*/
+.gem {
+    background-color: white;
+    margin:1%;
+}
+
+/* Final Score container*/
+.your-score {
+    background-color: #49A0B5;
+    color: white;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    padding: 5%;
+}
+
+.score-is {
+    background-color: #49A0B5;
+    color: white;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+}
