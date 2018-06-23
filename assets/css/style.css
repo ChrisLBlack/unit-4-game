@@ -35,17 +35,21 @@ body {
     width: 50%;
 }
 /*box for gems*/
-.gems-con {
+.gem-con {
     margin: 2%;
 }
 
-
-/* gems themselves*/
+/* gems themselves */
 .gem {
+    margin:auto;
+}
+
+
+/* gem images*/
+img {
     margin:5%;
-    opacity: .85;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 /* Final Score box*/
