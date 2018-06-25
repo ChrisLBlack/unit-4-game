@@ -8,6 +8,14 @@
 
     <!--Reset StyleSheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!--jQuery link-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+
+
     <!--Bootstrap link-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
@@ -15,12 +23,6 @@
     <!--My style sheet link-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <!--jQuery link-->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-    
 
     <title>Crystals Collector!</title>
 </head>
@@ -37,8 +39,8 @@
                 <ul>
                     <li>You will be given a random number at the start of the game.</li>
                     </br>
-                    <li>There are four crystals below. By clicking on a crysal, you will add a specific amount of points to your
-                        total score.</li>
+                    <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to
+                        your total score.</li>
                     </br>
 
                     <li>The value of each crystal is hidden from you until you click on it.</li>
@@ -54,7 +56,9 @@
         <!--Wins and Losses container-->
 
         <div class="row row-eq-height wins-con">
-            <div class="col-6-lg text-center" id="guess-card">random number</div>
+            <div class="col-6-lg text-center" id="guess-card">
+                <p>Number To Match: </p>
+            </div>
 
             <div class="col-6-lg text-center" id="score-card">
                 <ul>
